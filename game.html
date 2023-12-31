@@ -1,0 +1,42 @@
+<html>
+
+    <head>
+        <title>Guess the game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h4 id="p1_name">you : 0</h4>
+        <br>
+        <h4 id="p2_name">me : 0</h4>
+        
+        <div class="container">
+            <center>
+
+        <h1 style="color: white;">Guess the word</h1>
+        <h3 id="qt">Question turn : you</h3>
+        <h3 id="at">Answer turn : me</h3>
+        <br>
+        <div id="output">
+            <h3 id="question">Al_ha_e_</h3>
+            <br>
+            <input type="text" id="userans" placeholder="enter answer">
+            <br>
+            <br>
+            <button class="btn btn-success" onclick="check()">Check</button>
+            <br>
+            <h3></h3>
+        </div>
+        <br><br>
+        <h5>Note : try putting a word with minimum 6 or more letters.</h5>
+        <input type="text" id="user_ques" class="form-control" style="width: 40%;">
+        <br><br>
+        <button class="btn btn-primary" onclick="send()">Send</button>
+
+            </center>
+        </div>
+    </body>
+    <script src="game.js"></script>
+</html>

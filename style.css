@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    font-family: sans-serif;
+}
+#div1{
+    width: 40%;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
+    padding-top:10px;
+    padding-bottom: 30px;
+    padding-left:20px ;
+    padding-right:20px;
+}
+#div2{
+    width: 40%;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
+    padding-top:10px;
+    padding-bottom: 30px;
+    padding-left:20px ;
+    padding-right:20px;
+}
+#button{
+    width:20%
+}
+#output{
+    border-top-width: 5px;
+    border-color: blue;
+    border-style: ridge;
+    width: 40%;
+    display: none;
+}
+#user_ques{
+    color: white;
+}
